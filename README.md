@@ -98,7 +98,9 @@ Interested in contributing to Architect? We'd love your help. Architect is an op
 
 If you'd like to preview the theme locally (for example, in the process of proposing a change):
 
-1. Clone down the theme's repository (`git clone https://github.com/pages-themes/architect`)
+0. [Get jekyll](https://jekyllrb.com/docs/installation/windows/)
+
+1. Clone down the theme's repository (`git clone https://github.com/ISSAE/architect.git`)
 2. `cd` into the theme's directory
 3. Run `script/bootstrap` to install the necessary dependencies
 4. Run `bundle exec jekyll serve` to start the preview server
