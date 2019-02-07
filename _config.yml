@@ -12,5 +12,7 @@ description: ISSAE Architect is a theme for Cnam Liban GitHub Pages
 
 google_analytics: UA-29708002-2
 
+plugins:
+  - jekyll-seo-tag
 
-theme: jekyll-theme-issae-architect
+remote_theme: ISSAE/architect
