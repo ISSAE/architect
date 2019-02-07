@@ -8,12 +8,12 @@
 
 ## Usage
 
-To use the Architect theme:
+To use the ISSAE Cnam Liban Architect theme:
 
 1. Add the following to your site's `_config.yml`:
 
     ```yml
-    theme: jekyll-theme-architect
+    remote_theme: ISSAE/architect
     ```
 
 2. Optionally, if you'd like to preview your site on your computer, add the following to your site's `Gemfile`:
@@ -50,7 +50,7 @@ If you'd like to add your own custom styles:
     ---
     ---
 
-    @import "{{ site.theme }}";
+    @import "{{ jekyll-theme-issae-architect }}";
     ```
 3. Add any custom CSS (or Sass, including imports) you'd like immediately after the `@import` line
 
@@ -69,7 +69,7 @@ If you'd like to change the theme's HTML layout:
 
 Templates often rely on URLs supplied by GitHub such as links to your repository or links to download your project. If you'd like to override one or more default URLs:
 
-1. Look at [the template source](https://github.com/pages-themes/architect/blob/master/_layouts/default.html) to determine the name of the variable. It will be in the form of `{{ site.github.zip_url }}`.
+1. Look at [the template source](https://github.com/ISSAE/architect/blob/master/_layouts/default.html) to determine the name of the variable. It will be in the form of `{{ site.github.zip_url }}`.
 2. Specify the URL that you'd like the template to use in your site's `_config.yml`. For example, if the variable was `site.github.url`, you'd add the following:
     ```yml
     github:
@@ -84,7 +84,7 @@ For more information, see [the Jekyll variables documentation](https://jekyllrb.
 
 ## Roadmap
 
-See the [open issues](https://github.com/pages-themes/architect/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/ISSAE/architect/issues) for a list of proposed features (and known issues).
 
 ## Project philosophy
 
