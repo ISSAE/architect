@@ -1,5 +1,16 @@
-title: Architect theme
-description: Architect is a theme for GitHub Pages.
 show_downloads: true
-google_analytics:
-theme: jekyll-theme-architect
+
+name: Programmation Avancée 
+
+author: Pascal Fares
+
+author_email: pascal.fares@isae.edu.lb
+
+title: ISSAE Architect theme
+
+description: ISSAE Architect is a theme for Cnam Liban GitHub Pages
+
+google_analytics: UA-29708002-2
+
+
+theme: jekyll-theme-issae-architect
